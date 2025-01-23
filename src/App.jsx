@@ -3,7 +3,7 @@ import { useContext, useEffect } from "react";
 import { AppContext } from "./context/AppContext";
 import { Route, Routes, useSearchParams } from "react-router-dom";
 import { useLocation } from "react-router-dom";
-import Home from "./Pages/Home";
+import Home from "../Pages/Home";
 import BlogPage from "../Pages/BlogPage";
 import TagPage from "../Pages/TagPage";
 import CategoryPage from "../Pages/CategoryPage";
