@@ -14,7 +14,7 @@ export default function Header() {
 
         {/* Header Title */}
         <h1 className="font-bold text-3xl uppercase text-center text-blue-600 hover:text-blue-800 transition duration-300">
-          Welcome to CodeHelp Blogs!
+          Welcome to Shwet Blogs!
         </h1>
       </div>
     </header>
