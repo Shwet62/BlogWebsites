@@ -3,10 +3,11 @@ import { useContext, useEffect } from "react";
 import { AppContext } from "./context/AppContext";
 import { Route, Routes, useSearchParams } from "react-router-dom";
 import { useLocation } from "react-router-dom";
-import Home from "../Pages/Home";
-import BlogPage from "../Pages/BlogPage";
-import TagPage from "../Pages/TagPage";
-import CategoryPage from "../Pages/CategoryPage";
+import Home from "./pages/Home"
+import BlogPage from "./pages/BlogPage";
+import CategoryPage from "./pages/CategoryPage";
+import TagPage from "./pages/TagPage";
+
 
 export default function App() {
   const { fetchBlogPosts } = useContext(AppContext);
